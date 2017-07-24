@@ -13,7 +13,7 @@ function select(arr){
 
   function swap(curArr, from, to){
     let temp = curArr[from]
-    curArr[from] = to
+    curArr[from] = curArr[to]
     curArr[to] = temp
   }
 
