@@ -8,7 +8,7 @@
 function duplicates(arr) {
     var temp = {};
     var repArr = [];
-	arr.forEach(function(v,i,arr){
+	  arr.forEach(function(v,i,arr){
         if(!temp[v]){
             temp[v] = true;
         }else{
